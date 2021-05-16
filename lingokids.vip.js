@@ -1,7 +1,6 @@
 var obj = JSON.parse($response.body);
-
-obj["info"]["subscriptions"]= [
-      {
+if(obj["info"]) {
+      obj["info"]["subscriptions"]= [{
         "status": "active",
         "product": "unlimited",
         "duration_unit": "months",
@@ -14,7 +13,7 @@ obj["info"]["subscriptions"]= [
         "plan_id": "lk.ios.s1m.t1m.p15.v1",
         "state": "active"
       }];
-
+}
 $done({body: JSON.stringify(obj)});
 
 // Descriptions
