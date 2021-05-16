@@ -96,7 +96,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 #lingokids
 ^https:\/\/api\.lingokids\.com\/v1\/renovate_session$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/lingokids.vip.js
 
-^https:\/\/api\.lingokids\.com\/v1\/auth\/email$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/lingokids.vip.js
+^https:\/\/api\.lingokids\.com\/v1\/auth\/email$ url script-response-body https://raw.githubusercontent.com/dinhmv/Scripting/master/lingokids.vip.js
 
 #musicalm
 ^https:\/\/www\.peacefulsoundsapp\.com\/api\/v1\/init$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/musicalm.js
